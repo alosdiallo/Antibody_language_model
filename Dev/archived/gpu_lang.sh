@@ -1,7 +1,7 @@
 #!/bin/sh
 #SBATCH --job-name=multicore_job
 #SBATCH --nodes=1
-#SBATCH --partition v100_12
+#SBATCH --partition v100_pree
 #SBATCH --gres=gpu:3
 #SBATCH --time=80:99:00
 #SBATCH --mail-type=BEGIN,END,FAIL
